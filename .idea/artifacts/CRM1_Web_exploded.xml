@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="CRM1:Web exploded">
+    <output-path>$PROJECT_DIR$/target/artifacts/CRM1_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="CRM1/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="CRM1" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="lib1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
